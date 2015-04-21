@@ -20,7 +20,7 @@ How did we do that? Actually, it was pretty easy since Pivotal Tracker has a pow
 
 The starting point to get integrated with Pivotal Tracker is authentication. Fortunately, this system has the easiest way to setup and utilize their API - API Tokens. Just follow the [link](https://www.pivotaltracker.com/profile) and get it on you profile. 
 
-![Authentication](http://blog.trackduck.com/wp-content/uploads/2015/04/Authentication.png)
+![Authentication](https://blog.trackduck.com/wp-content/uploads/2015/04/Authentication.png)
 
 This token is provided with each request that requires authentication, which goes with the token in X-TrackerToken HTTP header or as the value of a token parameter in query string. 
 
@@ -30,7 +30,7 @@ Keep in mind that tokens provided to a third party system by clients give access
 
 Once you authenticate and provide your credentials, you need to select a project you want to get feedback and bug reports to. That’s pretty easy to do as Pivotal Tracker supports the [main standard methods for project resource](https://www.pivotaltracker.com/help/api/rest/v5#Projects) due to the REST principles.
 
-![Authentication](http://blog.trackduck.com/wp-content/uploads/2015/04/Configuration.png)
+![Authentication](https://blog.trackduck.com/wp-content/uploads/2015/04/Configuration.png)
 
 Then you need to select a format - a type of an issue - in which bug reports from TrackDuck come in on Pivotal Tracker.
 
@@ -44,9 +44,9 @@ To make a story appear in an icebox you should set the status to *unscheduled*, 
 
 As long as Pivotal Tracker has markdown support out of the box, a bug report comes in with all relevant information attahced to it, including a screenshot and  technical details of reporter's software, which help you to better reproduce the issue on your website.
 
-![Exporting stories and comments](http://blog.trackduck.com/wp-content/uploads/2015/04/export1.png)
+![Exporting stories and comments](https://blog.trackduck.com/wp-content/uploads/2015/04/export1.png)
 
-![Exportiny stories and comments](http://blog.trackduck.com/wp-content/uploads/2015/04/export2.png)
+![Exportiny stories and comments](https://blog.trackduck.com/wp-content/uploads/2015/04/export2.png)
 
 ## Getting updates
 
